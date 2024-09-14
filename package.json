@@ -9,12 +9,20 @@
     "start": "func start",
     "prod-build" : "npm run build && npm run start"
   },
-  "devDependencies": { "pg": "^8.0.0"},
+  "devDependencies": {  "cors": "^2.8.5",
+  "country-state-city": "^3.2.1",
+  "dotenv": "^16.4.5",
+  "pg": "^8.12.0",
+  "sequelize": "^6.37.3"},
   "dependencies": { 
     "@azure/functions": "^3.0.0",
     "azure-functions-core-tools": "^4.x",
     "@types/node": "16.x",
     "typescript": "^4.0.0",
-    "pg": "^8.0.0"
+    "cors": "^2.8.5",
+    "country-state-city": "^3.2.1",
+    "dotenv": "^16.4.5",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3"
   }
 }
