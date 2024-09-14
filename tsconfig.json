@@ -5,6 +5,9 @@
     "outDir": "dist",
     "rootDir": ".",
     "sourceMap": false,
-    "strict": false
+    "strict": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
   }
 }
+

@@ -1,14 +1,12 @@
 {
   "bindings": [
     {
-      "authLevel": "anonymous",
+      "authLevel": "function",
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route" : "index",
-      "methods": [
-        "get"
-      ]
+      "route": "personnel/update/{id}",
+      "methods": ["post"]
     },
     {
       "type": "http",
@@ -16,5 +14,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/index/index.js"
+  "scriptFile": "../dist/updatepersonal/index.js"
 }

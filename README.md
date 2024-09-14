@@ -1,4 +1,4 @@
-# Azure Function App Demo - [ Deployment with Node Js]
+# GXM Services - Azure Function - [ Deployment with Node Js]
 
 This repository contain azure function application built using typescript and node js deployed through cicd.
 It contain all the necessary package to run node function app in azure environment.
@@ -12,8 +12,5 @@ And run below command as per your needs.
 # 1. Install basic dependencies
     npm i --save
 
-# 2. typescript
-    tsc
-
-# 3. run application
+# 2. run application
     npm run prod-build

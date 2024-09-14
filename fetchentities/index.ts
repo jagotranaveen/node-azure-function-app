@@ -5,9 +5,6 @@ import Entity  from "../src/models/entities";
 import User  from "../src/models/users";
 
 
-
-
-
 const httpTrigger: AzureFunction = async function (context: Context, req: HttpRequest): Promise<void> {
   try {
     const allentities = await Entity.findAll({
