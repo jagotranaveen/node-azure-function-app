@@ -5,8 +5,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "personnel",
-      "methods": ["get"]
+      "route": "shareholder/delete/{id}",
+      "methods": ["post"]
     },
     {
       "type": "http",
@@ -14,5 +14,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/fetchpersonal/index.js"
+  "scriptFile": "../dist/deleteshareholder/index.js"
 }

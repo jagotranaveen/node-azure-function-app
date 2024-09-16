@@ -14,5 +14,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/deletepersonal/index.js"
+  "scriptFile": "../dist/deletepersonnel/index.js"
 }

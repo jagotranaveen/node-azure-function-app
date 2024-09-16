@@ -5,8 +5,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "name": "req",
-      "route": "personnel/add",
-      "methods": ["post"]
+      "route": "personnel",
+      "methods": ["get"]
     },
     {
       "type": "http",
@@ -14,5 +14,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/addpersonal/index.js"
+  "scriptFile": "../dist/fetchpersonnel/index.js"
 }

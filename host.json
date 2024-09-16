@@ -14,7 +14,7 @@
   },
   "extensions": {
       "http": {
-          "routePrefix": "gxm/entities"
+          "routePrefix": "gxm/entity"
       }
   } 
 }

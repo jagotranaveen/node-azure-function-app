@@ -2,6 +2,11 @@
   "IsEncrypted": false,
   "Values": {
     "FUNCTIONS_WORKER_RUNTIME": "node",
-    "AzureWebJobsStorage": "UseDevelopmentStorage=true"
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "DB_USER":"hspadmin",
+    "DB_PASSWORD":"Aug@2024",
+    "DB_NAME":"gxmuserdb",
+    "DB_HOST":"gxmdevdb.postgres.database.azure.com"
+    
   }
 }
